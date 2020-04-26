@@ -1,7 +1,18 @@
 package structs
 
+import "fmt"
+
+type Person struct {
+	Name string
+}
+
+func (p *Person) Introduce() {
+	fmt.Printf("Hi, I'm %s \n", p.Name)
+}
+
 type Saiyan struct {
-	Name   string
+	//	Name   string
+	*Person
 	Power  int
 	Father *Saiyan
 }
@@ -9,8 +20,8 @@ type Saiyan struct {
 // constructor like functions for the structs, doesnt have to return a pointer other
 func NewSaiyan(name string, power int) *Saiyan {
 	return &Saiyan{
-		Name:  name,
-		Power: power,
+		Person: &Person{name},
+		Power:  power,
 	}
 }
 

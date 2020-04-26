@@ -43,14 +43,15 @@ func main() {
 	////	third_hero := new(structs.Saiyan) it allocates the memory required by a type
 	//// third_hero.power = 123465
 	gohan := &structs.Saiyan{
-		Name:  "GOHAN",
-		Power: 9001,
+		Person: &structs.Person{Name: "GOHAN"},
+		Power:  9001,
 		Father: &structs.Saiyan{
-			Name:   "Goku",
+			Person: &structs.Person{Name: "GOKU"},
 			Power:  9001213,
 			Father: nil,
 		},
 	}
+	gohan.Introduce()
 	println(gohan.Father.Power)
 
 }
