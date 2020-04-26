@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e2d911b-e395-44de-8e11-d5c845bdb73d" name="Default Changelist" comment="" />
+    <list default="true" id="5e2d911b-e395-44de-8e11-d5c845bdb73d" name="Default Changelist" comment="midst the chapter 1">
+      <change afterPath="$PROJECT_DIR$/structs/structmodels.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,6 +61,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="midst the chapter 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="midst the chapter 1" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="755" y="473" width="410" height="141" key="#GOROOT" timestamp="1587887126602">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -75,29 +84,41 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="622" y="164" width="666" height="758" key="#go_build_main.go/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587887342483" />
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1587906796568">
+    <state x="2454" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1587907150808">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2454" y="101" width="912" height="911" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587907150808" />
+    <state x="2137" y="109" width="1536" height="901" key="DiffContextDialog" timestamp="1587906996706">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2137" y="109" width="1536" height="901" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587906996706" />
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1587911977867">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="284" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587887763327" />
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587906796568" />
-    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1587906796568">
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587911977867" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1587911977867">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="284" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587887763326" />
-    <state width="1804" height="275" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587906796568" />
-    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1587906796567">
+    <state width="1804" height="275" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587911977867" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1587911977866">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="284" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587887763326" />
-    <state width="1804" height="275" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587906796567" />
-    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1587906796568">
+    <state width="1804" height="275" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587911977866" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1587911977867">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="284" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587887763326" />
-    <state width="1804" height="275" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587906796568" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587911977867" />
     <state x="449" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1587876441013">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="175" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587876441013" />
+    <state x="2510" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587907530692">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2510" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587907530692" />
   </component>
 </project>
