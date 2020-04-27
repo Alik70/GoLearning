@@ -17,6 +17,11 @@ type Saiyan struct {
 	Father *Saiyan
 }
 
+func (s *Saiyan) Introduce() {
+	fmt.Println("Hi, I'm %s .yo! \n", s.Name)
+
+}
+
 // constructor like functions for the structs, doesnt have to return a pointer other
 func NewSaiyan(name string, power int) *Saiyan {
 	return &Saiyan{
